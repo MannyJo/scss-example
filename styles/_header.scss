@@ -1,0 +1,38 @@
+// this is like function in JS
+// @mixin flexCenter($direction, $bgColor) {
+//     height: 100vh;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     flex-direction: $direction;
+//     background: $bgColor;
+// }
+
+// header {
+//     @include flexCenter(column, green);
+//     color: $textColor;
+//     button {
+//         background-color: $primaryBtn;
+//         &:hover {
+//             background: red;
+//         }
+//         &::after {
+//             content: "Helllo~";
+//         }
+//     }
+// }
+
+header {
+    height: 100vh;
+    color: $textColor;
+    background: lightblue;
+    button {
+        background: $primaryBtn;
+        &:hover {
+            background: red;
+        }
+        &::after {
+            content: "Helllo~";
+        }
+    }
+}
